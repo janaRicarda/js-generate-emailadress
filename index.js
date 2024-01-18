@@ -1,5 +1,7 @@
 function generateEmail(newUser) {
-  return `${newUser.firstName.toLowerCase()}.${newUser.lastName.toLowerCase()}@example.com`;
+  const firstName = newUser.firstName.toLowerCase();
+  const lastName = newUser.lastName.toLowerCase();
+  return `${firstName}.${lastName}@example.com`;
   // function implementation
 }
 
